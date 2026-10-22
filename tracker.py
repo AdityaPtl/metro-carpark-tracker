@@ -1,10 +1,13 @@
 """
-Takes one snapshot of live car park occupancy for Sydney Metro Northwest
-stations (Tallawong, Kellyville, Bella Vista, Norwest) from the Transport for
-NSW Car Park API and appends it to data/carpark_log.csv.
+Takes one snapshot of live occupancy for the Sydney Metro Northwest Park&Ride
+car parks (Tallawong P1–P3, Kellyville north/south, Bella Vista) from the
+Transport for NSW Car Park API and appends it to data/live.csv.
 
-Run on a schedule by .github/workflows/track.yml. Needs the TFNSW_API_KEY
-environment variable (stored as a GitHub Actions secret).
+The workflow fires every 5 minutes. This script keeps a reading every
+5 minutes during weekday peaks (5–10am and 3–7pm Sydney time) and every
+10 minutes at all other times, skipping runs that come too soon.
+
+Needs the TFNSW_API_KEY environment variable (a GitHub Actions secret).
 """
 
 import csv
@@ -16,20 +19,23 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 SYDNEY = ZoneInfo("Australia/Sydney")
+
 # Live Park&Ride facility IDs from the TfNSW Car Park API docs (v2.4).
 # Norwest has no Park&Ride car park in the API. IDs 1-3 are retired
 # "historical only" car parks and are deliberately left out.
 FACILITIES = {
-    "26": "Tallawong", "27": "Tallawong", "28": "Tallawong",
-    "29": "Kellyville", "30": "Kellyville",
+    "26": "Tallawong P1", "27": "Tallawong P2", "28": "Tallawong P3",
+    "29": "Kellyville north", "30": "Kellyville south",
     "31": "Bella Vista",
 }
-START_HOUR, END_HOUR = 5, 14             # 5:00am to 2:00pm Sydney time
-TRACK_DAYS = {0, 1, 2, 3, 4, 5}          # Mon=0 ... Sat=5
-STOP_AFTER = datetime(2026, 10, 31, 14, 0, tzinfo=SYDNEY)  # end of tracking week
+
+PEAKS = [(5 * 60, 10 * 60), (15 * 60, 19 * 60)]   # minutes of day, Mon–Fri
+PEAK_GAP, OFFPEAK_GAP = 5, 10                      # minutes between readings
 
 BASE = "https://api.transport.nsw.gov.au/v1/carpark"
-LOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "carpark_log.csv")
+HERE = os.path.dirname(os.path.abspath(__file__))
+LIVE = os.path.join(HERE, "data", "live.csv")
+HEADER = ["time", "facility_id", "spots", "occupied"]
 API_KEY = os.environ.get("TFNSW_API_KEY", "")
 
 
@@ -50,59 +56,69 @@ def to_int(v):
 
 
 def parse_record(d):
-    """Return (facility_name, total_spaces, occupied, message_date) from one feed record."""
+    """Return (total_spaces, occupied, message_date) from one feed record."""
     total = to_int(d.get("spots"))
     used = to_int((d.get("occupancy") or {}).get("total"))
     if used is None:  # fall back to summing zones
         vals = [to_int((z.get("occupancy") or {}).get("total")) for z in d.get("zones") or []]
         vals = [v for v in vals if v is not None]
         used = sum(vals) if vals else None
-    return d.get("facility_name", ""), total, used, d.get("MessageDate", "")
+    return total, used, d.get("MessageDate", "")
 
 
-def percent(total, used):
-    if not total or used is None:
-        return ""
-    return round(100 * min(used, total) / total, 1)
+def is_peak(t):
+    m = t.hour * 60 + t.minute
+    return t.weekday() < 5 and any(a <= m < b for a, b in PEAKS)
+
+
+def last_logged():
+    """Time of the most recent reading in live.csv, or None."""
+    try:
+        with open(LIVE, "rb") as f:
+            f.seek(0, 2)
+            f.seek(max(0, f.tell() - 200))
+            last = f.read().decode("utf-8").strip().splitlines()[-1]
+        return datetime.strptime(last.split(",")[0], "%Y-%m-%d %H:%M").replace(tzinfo=SYDNEY)
+    except Exception:
+        return None
 
 
 def main():
     now = datetime.now(SYDNEY)
-    force = "--force" in sys.argv  # manual test runs ignore the time window
+    force = "--force" in sys.argv  # manual runs always take a reading
 
-    if not force:
-        if now > STOP_AFTER:
-            print("Tracking week is over — nothing to do.")
-            return
-        if now.weekday() not in TRACK_DAYS or not (START_HOUR <= now.hour < END_HOUR):
-            print(f"{now:%a %H:%M} is outside the tracking window — skipping.")
-            return
+    gap = PEAK_GAP if is_peak(now) else OFFPEAK_GAP
+    prev = last_logged()
+    if not force and prev and (now - prev).total_seconds() < (gap - 2) * 60:
+        print(f"{now:%a %H:%M}: last reading {prev:%H:%M}, next due in a {gap}-minute gap — skipping.")
+        return
 
     if not API_KEY:
         sys.exit("TFNSW_API_KEY secret is missing.")
 
+    stamp = now.strftime("%Y-%m-%d %H:%M")
     rows = []
-    for fid, station in FACILITIES.items():
+    for fid, name in FACILITIES.items():
         try:
-            name, total, used, msg_date = parse_record(get(f"{BASE}?facility={fid}"))
+            total, used, msg = parse_record(get(f"{BASE}?facility={fid}"))
         except Exception as e:
-            print(f"Facility {fid}: error {e}")
+            print(f"{name}: error {e}")
             continue
-        pct = percent(total, used)
-        rows.append([now.strftime("%Y-%m-%d %H:%M"), now.strftime("%a"),
-                     station, name, total, used, pct])
-        print(f"{name}: {used}/{total} ({pct}%)  [feed time {msg_date}]")
+        if total is None or used is None:
+            print(f"{name}: no occupancy in response")
+            continue
+        rows.append([stamp, fid, total, used])
+        print(f"{name}: {used}/{total}  [feed time {msg}]")
 
     if not rows:
         sys.exit("No car park data returned — check the TFNSW_API_KEY secret.")
 
-    os.makedirs(os.path.dirname(LOG), exist_ok=True)
-    new = not os.path.exists(LOG)
-    with open(LOG, "a", newline="") as f:
+    os.makedirs(os.path.dirname(LIVE), exist_ok=True)
+    new = not os.path.exists(LIVE)
+    with open(LIVE, "a", newline="") as f:
         w = csv.writer(f)
         if new:
-            w.writerow(["timestamp", "weekday", "station", "facility",
-                        "total_spaces", "occupied", "percent_full"])
+            w.writerow(HEADER)
         w.writerows(rows)
 
 

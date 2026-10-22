@@ -5,7 +5,7 @@ on:
     inputs:
       days:
         description: "How many past days to pull"
-        default: "28"
+        default: "60"
 
 permissions:
   contents: write

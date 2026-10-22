@@ -2,11 +2,11 @@ name: Track car park occupancy
 
 on:
   schedule:
-    # Every 10 min, 5:00am–2:00pm Sydney (AEDT, UTC+11), Monday–Saturday.
-    # GitHub cron runs in UTC: Sydney 5am–11am = 18:00–23:59 UTC the day before,
-    # Sydney 11am–2pm = 00:00–02:59 UTC the same day.
-    - cron: "*/10 18-23 * * 0-5"
-    - cron: "*/10 0-2 * * 1-6"
+    # Fires every 5 minutes, all day, every day. tracker.py decides whether to
+    # take a reading: every 5 min at weekday peaks (5–10am, 3–7pm Sydney time),
+    # every 10 min otherwise. Working in Sydney time inside the script means
+    # daylight-saving changes need no edits here.
+    - cron: "*/5 * * * *"
   workflow_dispatch:   # lets you press "Run workflow" to test it any time
 
 permissions:
