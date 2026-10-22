@@ -1,0 +1,9236 @@
+[
+ {
+  "tsn": "2155384",
+  "time": "840722499",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440969",
+     "total": "19",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440969",
+   "total": "19",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:01:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840722784",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440970",
+     "total": "18",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440970",
+   "total": "18",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:06:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840723384",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440970",
+     "total": "18",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440970",
+   "total": "18",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:16:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840723484",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440971",
+     "total": "17",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440971",
+   "total": "17",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:18:04",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840724085",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440971",
+     "total": "17",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440971",
+   "total": "17",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:28:05",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840724371",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440972",
+     "total": "16",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440972",
+   "total": "16",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:32:51",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840724721",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440973",
+     "total": "15",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440973",
+   "total": "15",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:38:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840725321",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440973",
+     "total": "15",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440973",
+   "total": "15",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:48:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840725468",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440974",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440974",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:51:08",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840725937",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440975",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440975",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T00:58:57",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840726537",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440975",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440975",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:08:57",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840727139",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440975",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440975",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:18:59",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840727228",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440976",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440976",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:20:28",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840727827",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440976",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440976",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:30:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840727857",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440977",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440977",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:30:57",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840728457",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440977",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440977",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:40:57",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840729059",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440977",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440977",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T01:50:59",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840729660",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440977",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440977",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:01:00",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840730262",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440977",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440977",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:11:02",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840730365",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440978",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440978",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:12:45",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840730965",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440978",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440978",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:22:45",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840731566",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440978",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440978",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:32:46",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840732024",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:40:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840732623",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T02:50:23",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840733225",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T03:00:25",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840733827",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T03:10:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840734428",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T03:20:28",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840735030",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T03:30:30",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840735631",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T03:40:31",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840736233",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T03:50:33",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840736835",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T04:00:35",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840737436",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T04:10:36",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840738038",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T04:20:38",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840738640",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T04:30:40",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840739241",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T04:40:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840739843",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T04:50:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840740444",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T05:00:44",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840741046",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T05:10:46",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840741648",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T05:20:48",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840742249",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T05:30:49",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840742851",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T05:40:51",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840743452",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T05:50:52",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840744054",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:00:54",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840744180",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:03:00",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840744780",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440979",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440979",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:13:00",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840745089",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440980",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440980",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:18:09",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840745689",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440980",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440980",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:28:09",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840746290",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440980",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440980",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:38:10",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840746892",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440980",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440980",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:48:12",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840747494",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440980",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440980",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T06:58:14",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840748095",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440981",
+     "total": "7",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440981",
+   "total": "7",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:08:15",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840748097",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440981",
+     "total": "7",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440981",
+   "total": "7",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:08:17",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840748119",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440982",
+     "total": "6",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440982",
+   "total": "6",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:08:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840748720",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440982",
+     "total": "6",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440982",
+   "total": "6",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:18:40",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840748754",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440983",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440983",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:19:14",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840749354",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440983",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440983",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:29:14",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840749955",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440983",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440983",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:39:15",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840750557",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440983",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440983",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:49:17",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840750565",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440984",
+     "total": "6",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440984",
+   "total": "6",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:49:25",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840750615",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440985",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440985",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T07:50:15",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840751215",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440986",
+     "total": "6",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440986",
+   "total": "6",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:00:15",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840751815",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440986",
+     "total": "6",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440986",
+   "total": "6",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:10:15",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840751870",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440987",
+     "total": "7",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440987",
+   "total": "7",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:11:10",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840752336",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440988",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440988",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:18:56",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840752935",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440988",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440988",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:28:55",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840753537",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440988",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440988",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:38:57",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840754138",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440988",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440988",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:48:58",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840754404",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440989",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440989",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T08:53:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840755003",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440989",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440989",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:03:23",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840755605",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440989",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440989",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:13:25",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840756167",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440990",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440990",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:22:47",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840756767",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440990",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440990",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:32:47",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840757369",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440990",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440990",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:42:49",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840757898",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440991",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440991",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:51:38",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840758287",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440992",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440992",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T09:58:07",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840758632",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440993",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440993",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:03:52",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840758648",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440994",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440994",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:04:08",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840758787",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440995",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440995",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:06:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840759387",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440995",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440995",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:16:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840759988",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440995",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440995",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:26:28",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840760132",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440996",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440996",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:28:52",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840760647",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440997",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440997",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:37:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840760944",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440998",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440998",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:42:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840760988",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "440999",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "440999",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:43:08",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840761177",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441000",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441000",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:46:17",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840761777",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441000",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441000",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T10:56:17",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840762350",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441001",
+     "total": "15",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441001",
+   "total": "15",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:05:50",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840762357",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441002",
+     "total": "16",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441002",
+   "total": "16",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:05:57",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840762464",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441003",
+     "total": "17",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441003",
+   "total": "17",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:07:44",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840762742",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441004",
+     "total": "18",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441004",
+   "total": "18",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:12:22",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840762958",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441005",
+     "total": "19",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441005",
+   "total": "19",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:15:58",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840763175",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441006",
+     "total": "20",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441006",
+   "total": "20",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:19:35",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840763642",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441007",
+     "total": "21",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441007",
+   "total": "21",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:27:22",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840763908",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441008",
+     "total": "22",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441008",
+   "total": "22",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:31:48",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840763926",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441009",
+     "total": "23",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441009",
+   "total": "23",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:32:06",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840764526",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441009",
+     "total": "23",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441009",
+   "total": "23",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:42:06",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840764682",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441010",
+     "total": "24",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441010",
+   "total": "24",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:44:42",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840764803",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441011",
+     "total": "25",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441011",
+   "total": "25",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:46:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840764869",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441012",
+     "total": "26",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441012",
+   "total": "26",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:47:49",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840765073",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441013",
+     "total": "27",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441013",
+   "total": "27",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:51:13",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840765236",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441014",
+     "total": "28",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441014",
+   "total": "28",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:53:56",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840765408",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441015",
+     "total": "29",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441015",
+   "total": "29",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T11:56:48",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840765723",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441016",
+     "total": "30",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441016",
+   "total": "30",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:02:03",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840765797",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441017",
+     "total": "31",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441017",
+   "total": "31",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:03:17",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840766372",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441018",
+     "total": "32",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441018",
+   "total": "32",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:12:52",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840766482",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441019",
+     "total": "33",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441019",
+   "total": "33",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:14:42",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840766839",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441020",
+     "total": "34",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441020",
+   "total": "34",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:20:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840767208",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441021",
+     "total": "35",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441021",
+   "total": "35",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:26:48",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840767262",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441022",
+     "total": "36",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441022",
+   "total": "36",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:27:42",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840767547",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441023",
+     "total": "37",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441023",
+   "total": "37",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:32:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840767608",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441024",
+     "total": "38",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441024",
+   "total": "38",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:33:28",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840767676",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441025",
+     "total": "39",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441025",
+   "total": "39",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:34:36",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840767746",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441026",
+     "total": "40",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441026",
+   "total": "40",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:35:46",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840768251",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441027",
+     "total": "41",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441027",
+   "total": "41",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:44:11",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840768452",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441028",
+     "total": "42",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441028",
+   "total": "42",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:47:32",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840768813",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441029",
+     "total": "43",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441029",
+   "total": "43",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T12:53:33",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840769226",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441030",
+     "total": "44",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441030",
+   "total": "44",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:00:26",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840769251",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441031",
+     "total": "43",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441031",
+   "total": "43",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:00:51",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840769851",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441031",
+     "total": "43",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441031",
+   "total": "43",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:10:51",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770350",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441032",
+     "total": "44",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441032",
+   "total": "44",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:19:10",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770375",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441033",
+     "total": "45",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441033",
+   "total": "45",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:19:35",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770422",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441034",
+     "total": "46",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441034",
+   "total": "46",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:20:22",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770527",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441035",
+     "total": "45",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441035",
+   "total": "45",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:22:07",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770596",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441036",
+     "total": "44",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441036",
+   "total": "44",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:23:16",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770938",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441037",
+     "total": "45",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441037",
+   "total": "45",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:28:58",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840770959",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441038",
+     "total": "46",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441038",
+   "total": "46",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:29:19",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840771558",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441038",
+     "total": "46",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441038",
+   "total": "46",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:39:18",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840771927",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441039",
+     "total": "47",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441039",
+   "total": "47",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:45:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840771943",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441040",
+     "total": "48",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441040",
+   "total": "48",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:45:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840772181",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441041",
+     "total": "49",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441041",
+   "total": "49",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:49:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840772243",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441042",
+     "total": "48",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441042",
+   "total": "48",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:50:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840772664",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441043",
+     "total": "49",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441043",
+   "total": "49",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T13:57:44",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840772905",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441044",
+     "total": "50",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441044",
+   "total": "50",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:01:45",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840773194",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441045",
+     "total": "51",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441045",
+   "total": "51",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:06:34",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840773410",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441046",
+     "total": "52",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441046",
+   "total": "52",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:10:10",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840773568",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441047",
+     "total": "51",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441047",
+   "total": "51",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:12:48",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840773789",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441048",
+     "total": "50",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441048",
+   "total": "50",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:16:29",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840773834",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441049",
+     "total": "51",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441049",
+   "total": "51",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:17:14",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840774007",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441050",
+     "total": "52",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441050",
+   "total": "52",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:20:07",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840774607",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441050",
+     "total": "52",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441050",
+   "total": "52",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:30:07",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840774766",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441051",
+     "total": "53",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441051",
+   "total": "53",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:32:46",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840775086",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441052",
+     "total": "52",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441052",
+   "total": "52",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:38:06",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840775166",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441053",
+     "total": "51",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441053",
+   "total": "51",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:39:26",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840775767",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441053",
+     "total": "51",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441053",
+   "total": "51",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:49:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840776368",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441053",
+     "total": "51",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441053",
+   "total": "51",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T14:59:28",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840776424",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441054",
+     "total": "50",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441054",
+   "total": "50",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:00:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840776504",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441055",
+     "total": "49",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441055",
+   "total": "49",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:01:44",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840776916",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441056",
+     "total": "48",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441056",
+   "total": "48",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:08:36",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840776941",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441057",
+     "total": "47",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441057",
+   "total": "47",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:09:01",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840776958",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441058",
+     "total": "46",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441058",
+   "total": "46",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:09:18",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840777281",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441059",
+     "total": "47",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441059",
+   "total": "47",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:14:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840777445",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441060",
+     "total": "46",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441060",
+   "total": "46",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:17:25",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840777507",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441061",
+     "total": "45",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441061",
+   "total": "45",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:18:27",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840777712",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441062",
+     "total": "46",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441062",
+   "total": "46",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:21:52",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840777942",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441063",
+     "total": "45",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441063",
+   "total": "45",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:25:42",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840778293",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441064",
+     "total": "44",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441064",
+   "total": "44",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:31:33",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840778894",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441064",
+     "total": "44",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441064",
+   "total": "44",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:41:34",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840778915",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441066",
+     "total": "44",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441066",
+   "total": "44",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:41:55",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840779437",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441067",
+     "total": "43",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441067",
+   "total": "43",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:50:37",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840779525",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441068",
+     "total": "42",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441068",
+   "total": "42",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:52:05",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840779540",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441069",
+     "total": "43",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441069",
+   "total": "43",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:52:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840779552",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441070",
+     "total": "42",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441070",
+   "total": "42",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T15:52:32",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840780152",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441070",
+     "total": "42",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441070",
+   "total": "42",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:02:32",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840780414",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441071",
+     "total": "41",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441071",
+   "total": "41",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:06:54",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840780845",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441072",
+     "total": "40",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441072",
+   "total": "40",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:14:05",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840781445",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441072",
+     "total": "40",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441072",
+   "total": "40",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:24:05",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840781538",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441073",
+     "total": "39",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441073",
+   "total": "39",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:25:38",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782139",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441073",
+     "total": "39",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441073",
+   "total": "39",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:35:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782191",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441074",
+     "total": "40",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441074",
+   "total": "40",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:36:31",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782430",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441075",
+     "total": "39",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441075",
+   "total": "39",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:40:30",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782655",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441076",
+     "total": "38",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441076",
+   "total": "38",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:44:15",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782867",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441077",
+     "total": "37",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441077",
+   "total": "37",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:47:47",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782899",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441078",
+     "total": "38",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441078",
+   "total": "38",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:48:19",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840782940",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441079",
+     "total": "37",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441079",
+   "total": "37",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:49:00",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840783213",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441080",
+     "total": "36",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441080",
+   "total": "36",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T16:53:33",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840783814",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441080",
+     "total": "36",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441080",
+   "total": "36",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:03:34",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840784415",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441080",
+     "total": "36",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441080",
+   "total": "36",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:13:35",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840785017",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441080",
+     "total": "36",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441080",
+   "total": "36",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:23:37",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840785619",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441080",
+     "total": "36",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441080",
+   "total": "36",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:33:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840785960",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441081",
+     "total": "35",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441081",
+   "total": "35",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:39:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840786116",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441082",
+     "total": "34",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441082",
+   "total": "34",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:41:56",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840786716",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441082",
+     "total": "34",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441082",
+   "total": "34",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:51:56",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840787196",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441083",
+     "total": "33",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441083",
+   "total": "33",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T17:59:56",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840787796",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441083",
+     "total": "33",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441083",
+   "total": "33",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:09:56",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840787808",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441084",
+     "total": "32",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441084",
+   "total": "32",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:10:08",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840787835",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441085",
+     "total": "31",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441085",
+   "total": "31",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:10:35",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840788358",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441086",
+     "total": "30",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441086",
+   "total": "30",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:19:18",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840788645",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441087",
+     "total": "31",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441087",
+   "total": "31",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:24:05",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840789130",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441088",
+     "total": "30",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441088",
+   "total": "30",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:32:10",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840789500",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441089",
+     "total": "29",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441089",
+   "total": "29",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:38:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840790100",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441089",
+     "total": "29",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441089",
+   "total": "29",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:48:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840790702",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441089",
+     "total": "29",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441089",
+   "total": "29",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:58:22",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840790730",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441089",
+     "total": "29",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441089",
+   "total": "29",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T18:58:50",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840791266",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441090",
+     "total": "28",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441090",
+   "total": "28",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:07:46",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840791867",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441090",
+     "total": "28",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441090",
+   "total": "28",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:17:47",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840792096",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441091",
+     "total": "27",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441091",
+   "total": "27",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:21:36",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840792279",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441092",
+     "total": "26",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441092",
+   "total": "26",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:24:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840792879",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441092",
+     "total": "26",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441092",
+   "total": "26",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:34:39",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840793104",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441093",
+     "total": "27",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441093",
+   "total": "27",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:38:24",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840793175",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441094",
+     "total": "26",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441094",
+   "total": "26",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:39:35",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840793206",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441095",
+     "total": "25",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441095",
+   "total": "25",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:40:06",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840793212",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441096",
+     "total": "24",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441096",
+   "total": "24",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:40:12",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840793220",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441097",
+     "total": "23",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441097",
+   "total": "23",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:40:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840793538",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441098",
+     "total": "22",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441098",
+   "total": "22",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:45:38",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840794138",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441098",
+     "total": "22",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441098",
+   "total": "22",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:55:38",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840794347",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441099",
+     "total": "21",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441099",
+   "total": "21",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:59:07",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840794361",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441100",
+     "total": "20",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441100",
+   "total": "20",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T19:59:21",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840794961",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441100",
+     "total": "20",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441100",
+   "total": "20",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:09:21",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840795200",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441101",
+     "total": "19",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441101",
+   "total": "19",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:13:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840795800",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441101",
+     "total": "19",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441101",
+   "total": "19",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:23:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840796097",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441102",
+     "total": "18",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441102",
+   "total": "18",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:28:17",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840796483",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441103",
+     "total": "17",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441103",
+   "total": "17",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:34:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840797083",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441103",
+     "total": "17",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441103",
+   "total": "17",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:44:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840797678",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441104",
+     "total": "16",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441104",
+   "total": "16",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:54:38",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840797909",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441105",
+     "total": "15",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441105",
+   "total": "15",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T20:58:29",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840798509",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441105",
+     "total": "15",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441105",
+   "total": "15",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:08:29",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840799110",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441105",
+     "total": "15",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441105",
+   "total": "15",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:18:30",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840799230",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441106",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441106",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:20:30",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840799830",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441106",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441106",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:30:30",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840800432",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441106",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441106",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:40:32",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840801033",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441106",
+     "total": "14",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441106",
+   "total": "14",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:50:33",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840801146",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441107",
+     "total": "13",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441107",
+   "total": "13",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:52:26",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840801321",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441108",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441108",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T21:55:21",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840801921",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441108",
+     "total": "12",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441108",
+   "total": "12",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:05:21",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840802198",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441109",
+     "total": "11",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441109",
+   "total": "11",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:09:58",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840802241",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441110",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441110",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:10:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840802841",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441110",
+     "total": "10",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441110",
+   "total": "10",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:20:41",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840802903",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441111",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441111",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:21:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840803325",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441112",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441112",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:28:45",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840803925",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441112",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441112",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:38:45",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840804020",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441113",
+     "total": "7",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441113",
+   "total": "7",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:40:20",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840804102",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441114",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441114",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:41:42",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840804618",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441115",
+     "total": "9",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441115",
+   "total": "9",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:50:18",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840804895",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441116",
+     "total": "8",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441116",
+   "total": "8",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:54:55",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840805123",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441117",
+     "total": "7",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441117",
+   "total": "7",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T22:58:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840805723",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441117",
+     "total": "7",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441117",
+   "total": "7",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:08:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840805787",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441118",
+     "total": "6",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441118",
+   "total": "6",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:09:47",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840805890",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441119",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441119",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:11:30",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840806491",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441119",
+     "total": "5",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441119",
+   "total": "5",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:21:31",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840806923",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441120",
+     "total": "4",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441120",
+   "total": "4",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:28:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840807523",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441120",
+     "total": "4",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441120",
+   "total": "4",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:38:43",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840808125",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441120",
+     "total": "4",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441120",
+   "total": "4",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:48:45",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ },
+ {
+  "tsn": "2155384",
+  "time": "840808726",
+  "spots": "397",
+  "zones": [
+   {
+    "spots": "397",
+    "zone_id": "1",
+    "occupancy": {
+     "loop": "441120",
+     "total": "4",
+     "monthlies": null,
+     "open_gate": null,
+     "transients": null
+    },
+    "zone_name": "SYD396C Tallawong P3 Car Park",
+    "parent_zone_id": "0"
+   }
+  ],
+  "ParkID": "1",
+  "location": {
+   "suburb": "Tallawong",
+   "address": "Conferta Avenue",
+   "latitude": "-33.693832",
+   "longitude": "150.903874"
+  },
+  "occupancy": {
+   "loop": "441120",
+   "total": "4",
+   "monthlies": null,
+   "open_gate": null,
+   "transients": null
+  },
+  "MessageDate": "2026-08-23T23:58:46",
+  "facility_id": "28",
+  "facility_name": "Park&Ride - Tallawong P3",
+  "tfnsw_facility_id": "2155384TPR003"
+ }
+]
