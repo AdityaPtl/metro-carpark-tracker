@@ -51,6 +51,29 @@ With *full threshold* `F` (90% or 98%), *arrival time* `A` and the selected days
 | **Daily curve** | median occupancy % across the selected days, per slot |
 | **Heatmap** | median occupancy % per weekday and 30-minute block, across the selected period (ignores the day filter, since each weekday is its own row) |
 
+| **Chance of a space by arrival time** | the "% of days with a space" figure, worked out for every 5-minute arrival time from 4am to midday |
+| **Fill time by weekday** | per weekday, the median fill time (dot) and the 25th–75th percentile (bar) across days that filled; "rarely fills" when fewer than half the days filled |
+| **Fill time, week by week** | each date's fill time, with school holidays shaded and public holidays marked |
+
+### Holidays
+
+NSW school holidays and public holidays are listed at the top of the dashboard's script (from nsw.gov.au). By default they're left out of the analysis, because a car park that's half empty on Labour Day says nothing about a normal Tuesday. The *Holidays* filter puts them back in.
+
+### Partial days
+
+A day only counts for a car park if it has readings for most of 5am–11am. That keeps today's half-finished day, or a day the tracker missed, from showing up as "didn't fill".
+
+### "What the data shows"
+
+The finding cards are calculated from the selected period (and holiday setting), across all weekdays:
+
+- **Busiest / quietest day** — the weekday where the most car parks filled, earliest; and the one where the fewest did.
+- **School holidays** — median Tue–Thu fill time in school holidays minus term time. Tue–Thu only, so Mondays and Fridays don't skew the comparison.
+- **Morning rush** — the most spaces a car park lost in any 15 minutes between 5am and 10am (median across weekdays), and the time from half full to full.
+- **Afternoon** — on days it filled, the first time after 3pm that occupancy dropped back below 90%.
+- **Tallawong / Kellyville** — the order the individual car parks fill in, and which one reaches half full earliest.
+- **Lately** — median Tue–Thu term-time fill time in the last 2 weeks compared with the 2 weeks before (shown once there are enough days).
+
 Medians are used throughout so one unusual day (a public holiday, a counter fault) doesn't drag the result around the way an average would.
 
 The verdict colours: **Good** when a space was found on at least 90% of days, **Risky** at 50–90%, **Usually full** below 50%. Each comes with an icon and a label so it doesn't rely on colour alone.

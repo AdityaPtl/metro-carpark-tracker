@@ -165,6 +165,15 @@ td.none { color: var(--muted); }
 .scale { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: var(--muted); margin-top: 8px; }
 .scale i { width: 22px; height: 10px; border-radius: 2px; display: inline-block; }
 
+.insights { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.insight { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; background: var(--bg); display: grid; gap: 4px; align-content: start; }
+.insight h3 { font: 600 1.08rem/1.2 var(--display); margin: 0; text-wrap: balance; }
+.insight p { margin: 0; font-size: 0.9rem; color: var(--ink-2); }
+.insight .eyebrow { margin-bottom: 2px; }
+.htag { display: inline-block; margin-left: 6px; font: 600 0.66rem/1 var(--display); letter-spacing: 0.05em; text-transform: uppercase; padding: 3px 5px; border-radius: 4px; color: var(--ink-2); background: color-mix(in srgb, var(--warn) 18%, var(--surface)); }
+.wk svg, .trend svg { display: block; width: 100%; height: auto; overflow: visible; }
+.wk text, .trend text { fill: var(--muted); font: 500 11px var(--body); font-variant-numeric: tabular-nums; }
+.wk, .trend { position: relative; }
 footer { font-size: 0.82rem; color: var(--muted); display: grid; gap: 8px; }
 footer label { color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
@@ -203,6 +212,9 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
       <div class="ctl"><span>Show</span>
         <div class="seg" id="group" role="group" aria-label="Group by"></div>
       </div>
+      <div class="ctl"><span>Holidays</span>
+        <div class="seg" id="hols" role="group" aria-label="School and public holidays"></div>
+      </div>
       <div class="ctl"><span>Counts as full</span>
         <div class="seg" id="thr" role="group" aria-label="Full threshold"></div>
       </div>
@@ -218,6 +230,24 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     <div class="board" id="board"></div>
   </section>
 
+  <section class="panel" aria-labelledby="ins-h">
+    <div class="panel-head">
+      <h2 id="ins-h">What the data shows</h2>
+      <span class="note" id="ins-note"></span>
+    </div>
+    <div class="insights" id="insights"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="chance-h">
+    <div class="panel-head">
+      <h2 id="chance-h">Chance of a space by arrival time</h2>
+      <span class="note">Share of your selected days that still had a space</span>
+    </div>
+    <div class="chart" id="chance" tabindex="0" aria-label="Percent of days with a space by arrival time. Use left and right arrow keys to read values."></div>
+    <div class="legend" id="chance-legend"></div>
+    <p class="note" style="margin:8px 0 0">Dashed line marks 9 in 10 days. Where a line crosses it is the latest arrival that almost always works.</p>
+  </section>
+
   <section class="panel" aria-labelledby="curve-h">
     <div class="panel-head">
       <h2 id="curve-h">How full it gets through the day</h2>
@@ -227,6 +257,25 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     <div class="legend" id="legend"></div>
     <p class="note" style="margin:8px 0 0">Line shows the typical (median) day for your selected days. Dashed line is your "full" level; the upright line is your arrival time.</p>
   </section>
+
+  <div class="split">
+    <section class="panel" aria-labelledby="wk-h">
+      <div class="panel-head">
+        <h2 id="wk-h">Fill time by weekday</h2>
+        <span class="note">Dot = typical day · bar = middle half of days</span>
+      </div>
+      <div class="wk" id="wk"></div>
+      <div class="legend" id="wk-legend"></div>
+    </section>
+    <section class="panel" aria-labelledby="trend-h">
+      <div class="panel-head">
+        <h2 id="trend-h">Fill time, week by week</h2>
+        <span class="note">Shaded = school holidays</span>
+      </div>
+      <div class="trend chart" id="trend" tabindex="0" aria-label="Fill time for each date. Use left and right arrow keys to read values."></div>
+      <div class="legend" id="trend-legend"></div>
+    </section>
+  </div>
 
   <div class="split">
     <section class="panel" aria-labelledby="days-h">
@@ -267,16 +316,22 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
   const STATIONS = [["Tallawong", [26, 27, 28]], ["Kellyville", [29, 30]], ["Bella Vista", [31]]];
   const DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
   const SLOTS = 288, STEP = 5;           // 5-minute slots
+  // NSW school holidays and public holidays (nsw.gov.au). Add new ones here as the data grows.
+  const SCHOOL_HOLS = [["2026-07-06", "2026-07-17", "Winter school holidays"], ["2026-09-28", "2026-10-09", "Spring school holidays"]];
+  const PUBLIC_HOLS = { "2026-10-05": "Labour Day", "2026-12-25": "Christmas Day", "2026-12-28": "Boxing Day holiday", "2027-01-01": "New Year's Day", "2027-01-26": "Australia Day" };
+  const holiday = (d) => PUBLIC_HOLS[d] ? { kind: "public", name: PUBLIC_HOLS[d] } :
+    (SCHOOL_HOLS.find(([a, b]) => d >= a && d <= b) ? { kind: "school", name: SCHOOL_HOLS.find(([a, b]) => d >= a && d <= b)[2] } : null);
   const FFILL = 36;                        // carry a reading forward up to 3 hours (history only logs changes)
 
   // ---------- State ----------
   const saved = (() => { try { return JSON.parse(localStorage.getItem("mnp") || "{}"); } catch { return {}; } })();
-  const S = Object.assign({ arrive: 450, days: [0, 1, 2, 3, 4], period: 28, group: "station", thr: 0.98, win: "am", heat: 0 }, saved);
+  const S = Object.assign({ arrive: 450, days: [0, 1, 2, 3, 4], period: 28, group: "station", thr: 0.98, win: "am", heat: 0, hols: "exclude" }, saved);
   const save = () => { try { localStorage.setItem("mnp", JSON.stringify(S)); } catch {} };
 
   let grid = {};        // fid -> date -> {occ: Float32Array, spots}
   let allDates = [];    // sorted
   let source = { kind: "loading" };
+  let dayCache = new Map();
 
   // ---------- Helpers ----------
   const $ = (id) => document.getElementById(id);
@@ -322,14 +377,16 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     return n;
   }
 
+  let latestObs = null;
   function buildGrid(obs) {
-    grid = {}; const dates = new Set();
+    grid = {}; const dates = new Set(); latestObs = null;
     for (const [d, m, fid, spots, occ] of obs) {
       const g = (grid[fid] ||= {});
       const day = (g[d] ||= { occ: new Float32Array(SLOTS).fill(NaN), spots });
       day.occ[Math.min(SLOTS - 1, Math.floor(m / STEP))] = occ;
       day.spots = spots;
       dates.add(d);
+      if (!latestObs || d > latestObs[0] || (d === latestObs[0] && m > latestObs[1])) latestObs = [d, m];
     }
     for (const fid in grid) for (const d in grid[fid]) {
       const a = grid[fid][d].occ; let last = NaN, age = 0;
@@ -339,6 +396,7 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
       }
     }
     allDates = [...dates].sort();
+    dayCache = new Map();
   }
 
   async function fetchText(path) {
@@ -391,6 +449,12 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
   }
 
   function unitDay(u, d) {
+    const key = u.fids.join(",") + "|" + d;
+    if (!dayCache.has(key)) dayCache.set(key, unitDayRaw(u, d));
+    return dayCache.get(key);
+  }
+
+  function unitDayRaw(u, d) {
     const days = u.fids.map((f) => grid[f]?.[d]);
     if (days.some((x) => !x)) return null;
     const spots = days.reduce((s, x) => s + x.spots, 0);
@@ -400,16 +464,33 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
       for (const x of days) { const v = x.occ[i]; if (isNaN(v)) { ok = false; break; } o += Math.min(v, x.spots); }
       pct[i] = ok ? o / spots : NaN; avail[i] = ok ? spots - o : NaN;
     }
+    // Leave out days without most of the 5am–11am readings (today, or gaps in the data).
+    let have = 0;
+    for (let i = 60; i < 132; i++) if (!isNaN(pct[i])) have++;
+    if (have < 54) return null;
     return { pct, avail, spots };
   }
 
-  function selectedDates() {
+  // Dates in the chosen period, optionally limited to some weekdays and with holidays left out.
+  function periodDates({ days = null, hols = S.hols } = {}) {
     if (!allDates.length) return [];
     const last = allDates[allDates.length - 1];
     const [y, m, d] = last.split("-").map(Number);
     const cut = new Date(Date.UTC(y, m - 1, d - (S.period - 1))).toISOString().slice(0, 10);
-    return allDates.filter((x) => (S.period >= 9999 || x >= cut) && S.days.includes(weekday(x)));
+    return allDates.filter((x) => (S.period >= 9999 || x >= cut) && (!days || days.includes(weekday(x))) && (hols === "include" || !holiday(x)));
   }
+  const selectedDates = () => periodDates({ days: S.days });
+
+  // First time from 4am that a day reached the "full" level, in minutes, or null.
+  function fillTime(s) {
+    for (let i = 48; i < SLOTS; i++) if (s.pct[i] >= S.thr) return i * STEP;
+    return null;
+  }
+  const quantile = (a, q) => { if (!a.length) return NaN; const s = [...a].sort((x, y) => x - y); const p = (s.length - 1) * q, i = Math.floor(p); return s[i] + (s[Math.min(i + 1, s.length - 1)] - s[i]) * (p - i); };
+  const dur = (m) => { m = Math.round(Math.abs(m)); const h = Math.floor(m / 60); return h ? `${h}h ${String(m % 60).padStart(2, "0")}m` : `${m} min`; };
+  const minRange = (a, b) => { a = Math.round(Math.abs(a)); b = Math.round(Math.abs(b)); if (a > b) [a, b] = [b, a]; return a === b ? dur(a) : b < 120 ? `${a}–${b} minutes` : `${dur(a)} to ${dur(b)}`; };
+  const listJoin = (a) => a.length < 2 ? a.join("") : `${a.slice(0, -1).join(", ")} and ${a[a.length - 1]}`;
+  const DAYNAME = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
   function analyse(u, dates) {
     const series = dates.map((d) => [d, unitDay(u, d)]).filter(([, s]) => s);
@@ -444,7 +525,8 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     renderControls(); renderStatus();
     const dates = selectedDates(); const us = units();
     const res = us.map((u) => analyse(u, dates));
-    renderBoard(res, dates); renderChart(res); renderTable(res); renderHeat(us);
+    renderBoard(res, dates); renderInsights(us); renderChance(res); renderChart(res);
+    renderWeekday(us); renderTrend(us); renderTable(res); renderHeat(us);
   }
 
   function seg(id, opts, cur, set) {
@@ -465,6 +547,7 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     });
     seg("period", [[14, "2 wks"], [28, "4 wks"], [56, "8 wks"], [9999, "All"]], S.period, (v) => (S.period = v));
     seg("group", [["station", "Stations"], ["carpark", "Car parks"]], S.group, (v) => { S.group = v; S.heat = 0; });
+    seg("hols", [["exclude", "Leave out"], ["include", "Include"]], S.hols, (v) => (S.hols = v));
     seg("thr", [[0.9, "90%+ (almost full)"], [0.98, "98%+ (full)"]], S.thr, (v) => (S.thr = v));
     seg("win", [["am", "4am–2pm"], ["day", "All day"]], S.win, (v) => (S.win = v));
   }
@@ -479,12 +562,10 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     }
     ban.hidden = true;
     const last = allDates[allDates.length - 1];
-    let latest = "";
-    for (const f in grid) { const day = grid[f][last]; if (!day) continue;
-      for (let i = SLOTS - 1; i >= 0; i--) if (!isNaN(day.occ[i])) { if (!latest || i * STEP > latest) latest = i * STEP; break; } }
+    const latest = latestObs ? `${dateLabel(latestObs[0])}, ${fmt(latestObs[1])}` : "";
     const span = allDates.length ? `${dateLabel(allDates[0])} – ${dateLabel(last)}` : "";
     st.replaceChildren(el("b", {}, `${allDates.length} days`), ` of readings · ${span}`,
-      latest !== "" ? ` · latest ${fmt(latest)}` : "", source.kind === "file" ? " · loaded from file" : "");
+      latest ? ` · latest reading ${latest}` : "", source.kind === "file" ? " · loaded from file" : "");
   }
 
   const ICON = {
@@ -523,49 +604,42 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     if (safeTxt) board.append(el("p", { class: "note", style: "margin:4px 2px 0" }, `To get a space on 9 in 10 days, arrive at ${safeTxt}.`));
   }
 
-  function renderChart(res) {
-    const box = $("chart"); box.replaceChildren();
-    const W = Math.max(320, box.clientWidth || 700), H = W < 500 ? 230 : 280;
-    const direct = S.group === "station" && W >= 560;
+  // Generic time-of-day line chart with crosshair tooltip.
+  // lines: [{label, col, vals: Float32Array(SLOTS)}]; values 0..1.
+  function lineChart(box, legendBox, lines, o) {
+    box.replaceChildren();
+    const W = Math.max(320, box.clientWidth || 700), H = W < 500 ? 230 : 270;
+    const direct = o.direct && lines.length <= 4 && W >= 560;
     const m = { l: 40, r: direct ? 92 : 14, t: 10, b: 26 };
-    const [x0, x1] = S.win === "am" ? [240, 840] : [0, 1440];
+    const [x0, x1] = [o.x0, o.x1];
     const X = (min) => m.l + ((min - x0) / (x1 - x0)) * (W - m.l - m.r);
     const Y = (p) => m.t + (1 - p) * (H - m.t - m.b);
-    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Typical percent full by time of day" });
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": o.aria });
     const g = svgEl("g", { class: "grid" }), ax = svgEl("g", { class: "axis" });
     for (const p of [0, 0.25, 0.5, 0.75, 1]) {
       g.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: Y(p), y2: Y(p) }));
       const t = svgEl("text", { x: m.l - 6, y: Y(p) + 4, "text-anchor": "end" }); t.textContent = `${p * 100}%`; ax.append(t);
     }
-    const tickStep = S.win === "am" ? (W < 500 ? 120 : 60) : 180;
-    for (let t = x0; t <= x1; t += tickStep) {
+    const span = x1 - x0, tickStep = span <= 480 ? (W < 500 ? 120 : 60) : span <= 600 ? (W < 500 ? 120 : 60) : 180;
+    for (let t = Math.ceil(x0 / 60) * 60; t <= x1; t += tickStep) {
       const tx = svgEl("text", { x: X(t), y: H - 6, "text-anchor": "middle" }); tx.textContent = t === 1440 ? "12am" : fmtShort(t); ax.append(tx);
     }
     svg.append(g, ax);
-    svg.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: Y(S.thr), y2: Y(S.thr), stroke: cssVar("--bad"), "stroke-dasharray": "4 4", "stroke-width": 1 }));
-    if (S.arrive >= x0 && S.arrive <= x1) svg.append(svgEl("line", { x1: X(S.arrive), x2: X(S.arrive), y1: m.t, y2: H - m.b, stroke: cssVar("--accent"), "stroke-width": 1.5 }));
-
-    const lines = res.map((r) => {
-      const med = new Float32Array(SLOTS).fill(NaN);
-      for (let i = x0 / STEP; i < Math.min(SLOTS, x1 / STEP + 1); i++) {
-        const v = r.series.map(([, s]) => s.pct[i]).filter((x) => !isNaN(x));
-        if (v.length) med[i] = median(v);
-      }
+    if (o.ref) svg.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: Y(o.ref.y), y2: Y(o.ref.y), stroke: cssVar(o.ref.color), "stroke-dasharray": "4 4", "stroke-width": 1 }));
+    if (o.marker >= x0 && o.marker <= x1) svg.append(svgEl("line", { x1: X(o.marker), x2: X(o.marker), y1: m.t, y2: H - m.b, stroke: cssVar("--accent"), "stroke-width": 1.5 }));
+    const i0 = Math.floor(x0 / STEP), i1 = Math.min(SLOTS - 1, Math.floor(x1 / STEP));
+    for (const l of lines) {
       let d = "", pen = false;
-      for (let i = x0 / STEP; i < Math.min(SLOTS, x1 / STEP + 1); i++) {
-        if (isNaN(med[i])) { pen = false; continue; }
-        d += `${pen ? "L" : "M"}${X(i * STEP).toFixed(1)},${Y(med[i]).toFixed(1)}`; pen = true;
+      for (let i = i0; i <= i1; i++) {
+        if (isNaN(l.vals[i])) { pen = false; continue; }
+        d += `${pen ? "L" : "M"}${X(i * STEP).toFixed(1)},${Y(l.vals[i]).toFixed(1)}`; pen = true;
       }
-      const col = cssVar(r.u.color);
-      svg.append(svgEl("path", { d, fill: "none", stroke: col, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
-      return { r, med, col };
-    });
-    // Direct labels at the line ends (station view only: three series)
+      svg.append(svgEl("path", { d, fill: "none", stroke: l.col, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    }
     if (direct) {
-      const ends = lines.map((l) => { let i = Math.min(SLOTS - 1, x1 / STEP); while (i > 0 && isNaN(l.med[i])) i--; return { l, y: Y(l.med[i] || 0) }; })
-        .sort((a, b) => a.y - b.y);
+      const ends = lines.map((l) => { let i = i1; while (i > i0 && isNaN(l.vals[i])) i--; return { l, y: Y(isNaN(l.vals[i]) ? 0 : l.vals[i]) }; }).sort((a, b) => a.y - b.y);
       for (let k = 1; k < ends.length; k++) if (ends[k].y - ends[k - 1].y < 14) ends[k].y = ends[k - 1].y + 14;
-      for (const e of ends) { const t = svgEl("text", { x: W - m.r + 6, y: e.y + 4, fill: cssVar("--ink-2"), "font-size": 12, "font-family": "Barlow, system-ui, sans-serif" }); t.textContent = e.l.r.u.label; svg.append(t); }
+      for (const e of ends) { const t = svgEl("text", { x: W - m.r + 6, y: e.y + 4, fill: cssVar("--ink-2"), "font-size": 12, "font-family": "Barlow, system-ui, sans-serif" }); t.textContent = e.l.label; svg.append(t); }
     }
     const cross = svgEl("line", { y1: m.t, y2: H - m.b, stroke: cssVar("--muted"), "stroke-width": 1, visibility: "hidden" });
     const dots = lines.map((l) => { const c = svgEl("circle", { r: 4, fill: l.col, stroke: cssVar("--surface"), "stroke-width": 2, visibility: "hidden" }); svg.append(c); return c; });
@@ -573,22 +647,20 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     const hit = svgEl("rect", { x: m.l, y: m.t, width: W - m.l - m.r, height: H - m.t - m.b, fill: "transparent" });
     svg.append(hit); box.append(svg);
     const tip = el("div", { class: "tip", hidden: "" }); box.append(tip);
-
     let cur = null;
     const show = (slot) => {
-      slot = Math.max(x0 / STEP, Math.min(Math.min(SLOTS - 1, x1 / STEP), slot)); cur = slot;
+      slot = Math.max(i0, Math.min(i1, slot)); cur = slot;
       const px = X(slot * STEP); cross.setAttribute("x1", px); cross.setAttribute("x2", px); cross.setAttribute("visibility", "visible");
       tip.replaceChildren(el("div", { class: "t" }, fmt(slot * STEP)));
       lines.forEach((l, i) => {
-        const v = l.med[slot];
+        const v = l.vals[slot];
         if (isNaN(v)) { dots[i].setAttribute("visibility", "hidden"); return; }
         dots[i].setAttribute("cx", px); dots[i].setAttribute("cy", Y(v)); dots[i].setAttribute("visibility", "visible");
-        tip.append(el("div", { class: "r" }, el("span", {}, el("span", { class: "key", style: `background:${l.col}` }), l.r.u.label), el("b", {}, `${Math.round(v * 100)}%`)));
+        tip.append(el("div", { class: "r" }, el("span", {}, el("span", { class: "key", style: `background:${l.col}` }), l.label), el("b", {}, o.tipFmt(v))));
       });
       tip.hidden = false;
-      const scale = box.clientWidth / W, left = px * scale;
-      tip.style.left = `${Math.min(Math.max(0, left + 12), box.clientWidth - tip.offsetWidth)}px`;
-      if (left + 12 + tip.offsetWidth > box.clientWidth) tip.style.left = `${Math.max(0, left - tip.offsetWidth - 12)}px`;
+      const left = px * (box.clientWidth / W);
+      tip.style.left = `${left + 12 + tip.offsetWidth > box.clientWidth ? Math.max(0, left - tip.offsetWidth - 12) : left + 12}px`;
       tip.style.top = "8px";
     };
     const hide = () => { tip.hidden = true; cross.setAttribute("visibility", "hidden"); dots.forEach((d) => d.setAttribute("visibility", "hidden")); };
@@ -602,9 +674,292 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
       e.preventDefault(); show((cur ?? Math.floor(S.arrive / STEP)) + (e.key === "ArrowRight" ? 1 : -1));
     };
     box.onblur = hide;
+    legendBox.replaceChildren();
+    for (const l of lines) legendBox.append(el("span", {}, el("span", { class: "key", style: `background:${l.col}` }), l.label));
+  }
 
-    const lg = $("legend"); lg.replaceChildren();
-    for (const l of lines) lg.append(el("span", {}, el("span", { class: "key", style: `background:${l.col}` }), l.r.u.label));
+  function renderChart(res) {
+    const [x0, x1] = S.win === "am" ? [240, 840] : [0, 1440];
+    const lines = res.map((r) => {
+      const vals = new Float32Array(SLOTS).fill(NaN);
+      for (let i = 0; i < SLOTS; i++) {
+        const v = r.series.map(([, s]) => s.pct[i]).filter((x) => !isNaN(x));
+        if (v.length) vals[i] = median(v);
+      }
+      return { label: r.u.label, col: cssVar(r.u.color), vals };
+    });
+    lineChart($("chart"), $("legend"), lines, { x0, x1, direct: S.group === "station", ref: { y: S.thr, color: "--bad" }, marker: S.arrive,
+      tipFmt: (v) => `${Math.round(v * 100)}% full`, aria: "Typical percent full by time of day" });
+  }
+
+  function renderChance(res) {
+    const lines = res.map((r) => {
+      const vals = new Float32Array(SLOTS).fill(NaN);
+      for (let i = 48; i <= 144; i++) {
+        const v = r.series.map(([, s]) => s.pct[i]).filter((x) => !isNaN(x));
+        if (v.length) vals[i] = v.filter((x) => x < S.thr).length / v.length;
+      }
+      return { label: r.u.label, col: cssVar(r.u.color), vals };
+    });
+    lineChart($("chance"), $("chance-legend"), lines, { x0: 240, x1: 720, direct: S.group === "station", ref: { y: 0.9, color: "--good" }, marker: S.arrive,
+      tipFmt: (v) => `${Math.round(v * 100)}% of days`, aria: "Percent of days with a space by arrival time" });
+  }
+
+  // ---------- Insights ----------
+  // Per unit and weekday: fill times on days that filled, and how many days there were.
+  function weekdayStats(u, dates) {
+    const out = DAY.map(() => ({ fills: [], n: 0 }));
+    for (const d of dates) { const s = unitDay(u, d); if (!s) continue; const w = out[weekday(d)]; w.n++; const f = fillTime(s); if (f !== null) w.fills.push(f); }
+    return out;
+  }
+
+  function renderInsights(us) {
+    const box = $("insights"); box.replaceChildren();
+    const dates = periodDates();                       // period + holiday setting, all weekdays
+    const withHols = periodDates({ hols: "include" });
+    $("ins-note").textContent = `Weekdays in the selected period${S.hols === "exclude" ? ", holidays left out" : ""}`;
+    const cards = [];
+    const card = (eyebrow, title, text) => cards.push(el("div", { class: "insight" }, el("span", { class: "eyebrow" }, eyebrow), el("h3", {}, title), el("p", {}, text)));
+    const ws = us.map((u) => ({ u, w: weekdayStats(u, dates) }));
+    const fills = (w) => w.fills.length >= Math.max(1, w.n / 2);
+
+    // 1. Busiest and quietest weekday
+    const dayScore = [0, 1, 2, 3, 4].map((wd) => {
+      const meds = ws.filter((x) => fills(x.w[wd])).map((x) => median(x.w[wd].fills));
+      const rate = ws.reduce((a, x) => a + (x.w[wd].n ? x.w[wd].fills.length / x.w[wd].n : 0), 0) / ws.length;
+      return { wd, meds, avg: meds.length ? meds.reduce((a, b) => a + b, 0) / meds.length : Infinity, rate, n: ws[0].w[wd].n };
+    }).filter((d) => d.n);
+    if (dayScore.length >= 3) {
+      const busiest = [...dayScore].sort((a, b) => b.rate - a.rate || a.avg - b.avg)[0];
+      const items = ws.filter((x) => fills(x.w[busiest.wd])).map((x) => `${x.u.label} ${fmt(median(x.w[busiest.wd].fills))}`);
+      if (items.length) card("Busiest day", `${DAYNAME[busiest.wd]}s fill first`, `On a typical ${DAYNAME[busiest.wd]}: ${listJoin(items)}.`);
+      const quiet = [...dayScore].sort((a, b) => a.rate - b.rate || b.avg - a.avg)[0];
+      if (quiet.wd !== busiest.wd) {
+        const later = ws.filter((x) => fills(x.w[quiet.wd]) && fills(x.w[busiest.wd])).map((x) => `${x.u.label} fills about ${dur(median(x.w[quiet.wd].fills) - median(x.w[busiest.wd].fills))} later`);
+        const never2 = ws.filter((x) => !fills(x.w[quiet.wd])).map((x) => `${x.u.label} on ${x.w[quiet.wd].fills.length} of ${x.w[quiet.wd].n}`);
+        let text = never2.length ? `Only filled: ${listJoin(never2)} ${DAYNAME[quiet.wd]}s.` : "";
+        if (later.length) text += `${text ? " " : ""}${listJoin(later)} than on ${DAYNAME[busiest.wd]}s.`;
+        if (text) card("Quietest day", `${DAYNAME[quiet.wd]}s are the easiest`, text);
+      }
+    }
+
+    // 2. School holidays vs term time (Tue–Thu, to keep weekday mix the same)
+    const mid = (d) => [1, 2, 3].includes(weekday(d));
+    const hd = withHols.filter((d) => mid(d) && holiday(d)?.kind === "school"), td = withHols.filter((d) => mid(d) && !holiday(d));
+    if (hd.length >= 2 && td.length >= 3) {
+      const diffs = us.map((u) => {
+        const h = hd.map((d) => unitDay(u, d)).filter(Boolean).map(fillTime).filter((x) => x !== null);
+        const t = td.map((d) => unitDay(u, d)).filter(Boolean).map(fillTime).filter((x) => x !== null);
+        return h.length && t.length ? median(h) - median(t) : NaN;
+      }).filter((x) => !isNaN(x));
+      if (diffs.length) {
+        const lo = Math.min(...diffs), hi = Math.max(...diffs), later = hi > 0;
+        card("School holidays", later ? "Holidays buy you extra time" : "Holidays made little difference",
+          `Tue–Thu in the school holidays, car parks filled ${minRange(lo, hi)} ${later ? "later" : "earlier"} than in term time. Use "Holidays" above to include or leave them out.`);
+      }
+    }
+
+    // 3. How fast it fills, and 4. when spaces come back
+    const wkd = dates.filter((d) => weekday(d) < 5);
+    const speed = us.map((u) => {
+      const rates = [], halfToFull = [], back = [];
+      for (const d of wkd) {
+        const s = unitDay(u, d); if (!s) continue;
+        let best = 0;
+        for (let i = 60; i < 117; i++) if (!isNaN(s.avail[i]) && !isNaN(s.avail[i + 3])) best = Math.max(best, s.avail[i] - s.avail[i + 3]);
+        if (best) rates.push(best / 15);
+        const f = fillTime(s); let h = null;
+        for (let i = 48; i < SLOTS; i++) if (s.pct[i] >= 0.5) { h = i * STEP; break; }
+        if (f !== null && h !== null && f < 720) {
+          halfToFull.push(f - h);
+          for (let i = 180; i < SLOTS; i++) if (s.pct[i] < 0.9) { back.push(i * STEP); break; }
+        }
+      }
+      return { u, rate: median(rates), h2f: median(halfToFull), back: median(back) };
+    }).filter((x) => !isNaN(x.rate));
+    if (speed.length) {
+      const top = [...speed].sort((a, b) => b.rate - a.rate)[0];
+      const h2f = speed.map((x) => x.h2f).filter((x) => !isNaN(x));
+      card("Morning rush", "Spaces go fast at the peak",
+        `At its busiest, ${top.u.label} takes about ${Math.round(top.rate)} cars a minute.${h2f.length ? ` Going from half full to full takes ${minRange(Math.min(...h2f), Math.max(...h2f))}.` : ""}`);
+      const backs = speed.filter((x) => !isNaN(x.back)).sort((a, b) => a.back - b.back);
+      if (backs.length) card("Afternoon", `Spaces come back from about ${fmtShort(Math.round(backs[0].back / 30) * 30)}`,
+        `On days it filled, each car park dropped back below 90%: ${listJoin(backs.map((x) => `${x.u.label} ${fmt(x.back)}`))}.`);
+    }
+
+    // 5. Order the car parks fill in (always by car park)
+    const cpStats = Object.keys(FAC).map((f) => {
+      const u = { fids: [+f] }; const t = wkd.map((d) => unitDay(u, d)).filter(Boolean);
+      const fl = t.map(fillTime).filter((x) => x !== null);
+      let half = [];
+      for (const s of t) for (let i = 0; i < 144; i++) if (s.pct[i] >= 0.5) { half.push(i * STEP); break; }
+      return { f, name: FAC[f].name, station: FAC[f].station, fill: fl.length >= t.length / 2 ? median(fl) : NaN, half: median(half) };
+    });
+    const tall = cpStats.filter((c) => c.station === "Tallawong" && !isNaN(c.fill)).sort((a, b) => a.fill - b.fill);
+    if (tall.length >= 2) {
+      const early = cpStats.filter((c) => !isNaN(c.half)).sort((a, b) => a.half - b.half)[0];
+      card("Tallawong", `${tall[0].name.replace("Tallawong ", "")} fills first, ${tall[tall.length - 1].name.replace("Tallawong ", "")} last`,
+        `Typical weekday: ${listJoin(tall.map((c) => `${c.name.replace("Tallawong ", "")} full by ${fmt(c.fill)}`))}.${early ? ` ${early.name} is half full by ${fmt(early.half)}, the earliest of any car park.` : ""}`);
+    }
+    const kel = cpStats.filter((c) => c.station === "Kellyville" && !isNaN(c.fill)).sort((a, b) => a.fill - b.fill);
+    if (kel.length === 2 && Math.abs(kel[0].fill - kel[1].fill) >= 10)
+      card("Kellyville", `${kel[0].name.replace("Kellyville ", "")} side fills first`.replace(/^./, (c) => c.toUpperCase()),
+        `${kel[0].name} is usually full by ${fmt(kel[0].fill)}, ${dur(kel[1].fill - kel[0].fill)} before ${kel[1].name} (${fmt(kel[1].fill)}). If you're running late, try ${kel[1].name.replace("Kellyville ", "")}.`);
+
+    // 6. Recent trend: last 2 weeks vs the 2 weeks before (Tue–Thu, term time)
+    if (allDates.length >= 28) {
+      const last = allDates[allDates.length - 1]; const [y, m, d] = last.split("-").map(Number);
+      const day = (k) => new Date(Date.UTC(y, m - 1, d - k)).toISOString().slice(0, 10);
+      const a = allDates.filter((x) => x > day(14) && mid(x) && !holiday(x)), b = allDates.filter((x) => x > day(28) && x <= day(14) && mid(x) && !holiday(x));
+      if (a.length >= 3 && b.length >= 3) {
+        const diffs = us.map((u) => {
+          const fa = a.map((x) => unitDay(u, x)).filter(Boolean).map(fillTime).filter((x) => x !== null);
+          const fb = b.map((x) => unitDay(u, x)).filter(Boolean).map(fillTime).filter((x) => x !== null);
+          return fa.length && fb.length ? median(fa) - median(fb) : NaN;
+        }).filter((x) => !isNaN(x));
+        if (diffs.length) {
+          const avg = diffs.reduce((p, q) => p + q, 0) / diffs.length;
+          card("Lately", Math.abs(avg) < 8 ? "Steady over the last month" : avg < 0 ? "Filling earlier lately" : "Filling later lately",
+            Math.abs(avg) < 8 ? `Tue–Thu fill times in the last 2 weeks are within ${dur(Math.max(1, Math.abs(avg)))} of the 2 weeks before.`
+              : `Tue–Thu, car parks filled about ${dur(avg)} ${avg < 0 ? "earlier" : "later"} in the last 2 weeks than the 2 weeks before (term time only).`);
+        }
+      }
+    }
+    if (!cards.length) cards.push(el("p", { class: "note" }, "Not enough readings in this period yet. Try a longer period."));
+    box.append(...cards);
+  }
+
+  // ---------- Fill time by weekday (dot = median, bar = middle half) ----------
+  function renderWeekday(us) {
+    const box = $("wk"); box.replaceChildren();
+    const dates = periodDates();
+    const ws = us.map((u) => ({ u, w: weekdayStats(u, dates), col: cssVar(u.color) }));
+    const rows = [0, 1, 2, 3, 4, 5, 6].filter((wd) => ws.some((x) => x.w[wd].fills.length));
+    const W = Math.max(320, box.clientWidth || 520), rowH = Math.max(30, us.length * 7 + 14), ml = 40, mr = 70, mt = 6, mb = 24;
+    const H = mt + rows.length * rowH + mb, x0 = 300, x1 = 720;
+    const X = (v) => ml + ((Math.min(Math.max(v, x0), x1) - x0) / (x1 - x0)) * (W - ml - mr);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Typical fill time for each weekday" });
+    for (let t = x0; t <= x1; t += W < 500 ? 120 : 60) {
+      svg.append(svgEl("line", { x1: X(t), x2: X(t), y1: mt, y2: H - mb, stroke: cssVar("--line") }));
+      const tx = svgEl("text", { x: X(t), y: H - 6, "text-anchor": "middle" }); tx.textContent = fmtShort(t); svg.append(tx);
+    }
+    if (S.arrive >= x0 && S.arrive <= x1) svg.append(svgEl("line", { x1: X(S.arrive), x2: X(S.arrive), y1: mt, y2: H - mb, stroke: cssVar("--accent"), "stroke-width": 1.5 }));
+    box.append(svg);
+    const tip = el("div", { class: "tip", hidden: "" }); box.append(tip);
+    rows.forEach((wd, r) => {
+      const cy = mt + r * rowH + rowH / 2;
+      const lab = svgEl("text", { x: ml - 8, y: cy + 4, "text-anchor": "end" }); lab.textContent = DAY[wd]; svg.append(lab);
+      const rare = [];
+      ws.forEach((x, k) => {
+        const w = x.w[wd], y = cy + (k - (ws.length - 1) / 2) * 7;
+        if (!w.fills.length || w.fills.length < w.n / 2) { rare.push(x); return; }
+        const q1 = quantile(w.fills, 0.25), q3 = quantile(w.fills, 0.75), md = median(w.fills);
+        svg.append(svgEl("line", { x1: X(q1), x2: X(q3), y1: y, y2: y, stroke: x.col, "stroke-width": 2, "stroke-linecap": "round", opacity: 0.55 }));
+        const dot = svgEl("circle", { cx: X(md), cy: y, r: 4.5, fill: x.col, stroke: cssVar("--surface"), "stroke-width": 2, tabindex: 0 });
+        const showTip = () => {
+          tip.replaceChildren(el("div", { class: "t" }, `${DAYNAME[wd]} · ${x.u.label}`),
+            el("div", { class: "r" }, el("span", {}, "Usually full by"), el("b", {}, fmt(md))),
+            el("div", { class: "r" }, el("span", {}, "Middle half of days"), el("b", {}, `${fmt(q1)}–${fmt(q3)}`)),
+            el("div", { class: "r" }, el("span", {}, "Days it filled"), el("b", {}, `${w.fills.length} of ${w.n}`)));
+          tip.hidden = false;
+          const sc = box.clientWidth / W, left = X(md) * sc;
+          tip.style.left = `${left + 12 + tip.offsetWidth > box.clientWidth ? Math.max(0, left - tip.offsetWidth - 12) : left + 12}px`;
+          tip.style.top = `${Math.max(0, y * sc - 20)}px`;
+        };
+        dot.addEventListener("pointerenter", showTip); dot.addEventListener("focus", showTip);
+        dot.addEventListener("pointerleave", () => (tip.hidden = true)); dot.addEventListener("blur", () => (tip.hidden = true));
+        svg.append(dot);
+      });
+      if (rare.length) {
+        const t = svgEl("text", { x: W - mr + 6, y: cy + 4 }); t.textContent = rare.length === ws.length ? "rarely fills" : `${rare.length} rarely fill`;
+        svg.append(t);
+      }
+    });
+    const lg = $("wk-legend"); lg.replaceChildren();
+    for (const x of ws) lg.append(el("span", {}, el("span", { class: "key", style: `background:${x.col}` }), x.u.label));
+  }
+
+  // ---------- Fill time for each date ----------
+  function renderTrend(us) {
+    const box = $("trend"); box.replaceChildren();
+    const dates = periodDates({ days: S.days.filter((d) => d < 5).length ? S.days.filter((d) => d < 5) : [0, 1, 2, 3, 4], hols: "include" });
+    const series = us.map((u) => ({ u, col: cssVar(u.color), pts: dates.map((d) => { const s = unitDay(u, d); return s ? fillTime(s) : undefined; }) }));
+    const W = Math.max(320, box.clientWidth || 520), H = 250, ml = 44, mr = 12, mt = 22, mb = 26;
+    const y0 = 300, y1 = 720;                               // 5am .. 12pm; "didn't fill" drawn above
+    const n = dates.length;
+    const X = (i) => ml + (n <= 1 ? 0.5 : i / (n - 1)) * (W - ml - mr);
+    const Y = (v) => v === null ? mt - 10 : mt + ((Math.min(Math.max(v, y0), y1) - y0) / (y1 - y0)) * (H - mt - mb);
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Fill time for each date" });
+    // school-holiday shading
+    let start = null;
+    dates.forEach((d, i) => {
+      const isH = holiday(d)?.kind === "school";
+      if (isH && start === null) start = i;
+      if ((!isH || i === n - 1) && start !== null) {
+        const end = isH ? i : i - 1;
+        svg.append(svgEl("rect", { x: X(start) - 4, y: mt - 16, width: Math.max(8, X(end) - X(start) + 8), height: H - mt - mb + 16, fill: cssVar("--warn"), opacity: 0.12 }));
+        start = null;
+      }
+    });
+    for (let t = y0; t <= y1; t += 60) {
+      svg.append(svgEl("line", { x1: ml, x2: W - mr, y1: Y(t), y2: Y(t), stroke: cssVar("--line") }));
+      const tx = svgEl("text", { x: ml - 6, y: Y(t) + 4, "text-anchor": "end" }); tx.textContent = fmtShort(t); svg.append(tx);
+    }
+    const nf = svgEl("text", { x: ml - 6, y: Y(null) + 4, "text-anchor": "end" }); nf.textContent = "no fill"; svg.append(nf);
+    if (S.arrive >= y0 && S.arrive <= y1) svg.append(svgEl("line", { x1: ml, x2: W - mr, y1: Y(S.arrive), y2: Y(S.arrive), stroke: cssVar("--accent"), "stroke-width": 1.5, "stroke-dasharray": "2 3" }));
+    // date labels: Mondays (or every ~6th point)
+    const every = Math.max(1, Math.ceil(n / (W < 500 ? 4 : 8)));
+    dates.forEach((d, i) => {
+      if (i % every) return;
+      const [, mo, dd] = d.split("-").map(Number);
+      const t = svgEl("text", { x: X(i), y: H - 6, "text-anchor": "middle" }); t.textContent = `${dd} ${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][mo - 1]}`; svg.append(t);
+    });
+    dates.forEach((d, i) => { if (holiday(d)?.kind === "public") svg.append(svgEl("line", { x1: X(i), x2: X(i), y1: mt - 16, y2: H - mb, stroke: cssVar("--warn"), "stroke-dasharray": "3 3" })); });
+    for (const s of series) {
+      let path = "", pen = false;
+      s.pts.forEach((v, i) => {
+        if (v === undefined || v === null) { pen = false; return; }
+        path += `${pen ? "L" : "M"}${X(i).toFixed(1)},${Y(v).toFixed(1)}`; pen = true;
+      });
+      svg.append(svgEl("path", { d: path, fill: "none", stroke: s.col, "stroke-width": 1.5, opacity: 0.8, "stroke-linejoin": "round" }));
+      s.pts.forEach((v, i) => {
+        if (v === undefined) return;
+        svg.append(svgEl("circle", { cx: X(i), cy: Y(v), r: v === null ? 3 : 2.5, fill: v === null ? cssVar("--surface") : s.col, stroke: s.col, "stroke-width": v === null ? 1.5 : 0 }));
+      });
+    }
+    const cross = svgEl("line", { y1: mt - 16, y2: H - mb, stroke: cssVar("--muted"), visibility: "hidden" });
+    svg.append(cross);
+    const hit = svgEl("rect", { x: ml - 6, y: 0, width: W - ml - mr + 12, height: H - mb, fill: "transparent" });
+    svg.append(hit); box.append(svg);
+    const tip = el("div", { class: "tip", hidden: "" }); box.append(tip);
+    let cur = null;
+    const show = (i) => {
+      if (!n) return;
+      i = Math.max(0, Math.min(n - 1, i)); cur = i;
+      cross.setAttribute("x1", X(i)); cross.setAttribute("x2", X(i)); cross.setAttribute("visibility", "visible");
+      const h = holiday(dates[i]);
+      tip.replaceChildren(el("div", { class: "t" }, dateLabel(dates[i]), h ? el("span", { class: "htag" }, h.name) : ""));
+      for (const s of series) {
+        const v = s.pts[i];
+        tip.append(el("div", { class: "r" }, el("span", {}, el("span", { class: "key", style: `background:${s.col}` }), s.u.label),
+          el("b", {}, v === undefined ? "no data" : v === null ? "didn't fill" : `full ${fmt(v)}`)));
+      }
+      tip.hidden = false;
+      const left = X(i) * (box.clientWidth / W);
+      tip.style.left = `${left + 12 + tip.offsetWidth > box.clientWidth ? Math.max(0, left - tip.offsetWidth - 12) : left + 12}px`;
+      tip.style.top = "8px";
+    };
+    const hide = () => { tip.hidden = true; cross.setAttribute("visibility", "hidden"); };
+    hit.addEventListener("pointermove", (e) => {
+      const r = svg.getBoundingClientRect(); const vx = ((e.clientX - r.left) / r.width) * W;
+      show(Math.round(((vx - ml) / (W - ml - mr)) * (n - 1)));
+    });
+    hit.addEventListener("pointerleave", hide);
+    box.onkeydown = (e) => { if (e.key === "ArrowLeft" || e.key === "ArrowRight") { e.preventDefault(); show((cur ?? n - 1) + (e.key === "ArrowRight" ? 1 : -1)); } };
+    box.onblur = hide;
+    const lg = $("trend-legend"); lg.replaceChildren();
+    for (const s of series) lg.append(el("span", {}, el("span", { class: "key", style: `background:${s.col}` }), s.u.label));
+    lg.append(el("span", {}, "○ didn't fill"));
   }
 
   function renderTable(res) {
@@ -614,7 +969,8 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
     const dates = [...new Set(res.flatMap((r) => r.fills.map(([d]) => d)))].sort().reverse();
     const body = el("tbody");
     for (const d of dates) {
-      const tr = el("tr", {}, el("td", {}, dateLabel(d)));
+      const h = holiday(d);
+      const tr = el("tr", {}, el("td", {}, dateLabel(d), h ? el("span", { class: "htag", title: h.name }, h.kind === "public" ? "Public hol" : "School hols") : ""));
       for (const r of res) {
         const f = r.fills.find(([x]) => x === d);
         if (!f) tr.append(el("td", { class: "none" }, "no data"));

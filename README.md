@@ -16,7 +16,10 @@ I drive to the Metro for work and kept wondering whether to aim for Tallawong, K
 - **Daily fill curve** — the typical day's occupancy from 4am to 2pm (or all day), with your arrival time and "full" level marked.
 - **Day-by-day table** — when each car park filled on each date, with days it filled before your arrival highlighted.
 - **Weekday heatmap** — busiest times for each station or car park across the week.
-- **Filters** — weekdays / Tue–Thu / Mon & Fri / Saturday, last 2, 4 or 8 weeks, station or individual car park, and what counts as full (90% or 98%).
+- **What the data shows** — findings worked out live from the data: the busiest and quietest weekdays, the school-holiday effect, how fast car parks fill, when spaces come back in the afternoon, and which car park at each station fills first.
+- **Chance of a space by arrival time** — for every arrival time from 4am to midday, the share of days that still had a space.
+- **Fill time by weekday** and **week by week** — typical fill time and spread for each weekday, and every day's fill time with school and public holidays marked.
+- **Filters** — weekdays / Tue–Thu / Mon & Fri / Saturday, last 2, 4 or 8 weeks, station or individual car park, school and public holidays in or out, and what counts as full (90% or 98%).
 - **Installable web app** — add it to your home screen; it opens offline with the last data it loaded.
 
 ## How it works
