@@ -1,0 +1,45 @@
+name: Track car park occupancy
+
+on:
+  schedule:
+    # Every 10 min, 5:00am–2:00pm Sydney (AEDT, UTC+11), Monday–Saturday.
+    # GitHub cron runs in UTC: Sydney 5am–11am = 18:00–23:59 UTC the day before,
+    # Sydney 11am–2pm = 00:00–02:59 UTC the same day.
+    - cron: "*/10 18-23 * * 0-5"
+    - cron: "*/10 0-2 * * 1-6"
+  workflow_dispatch:   # lets you press "Run workflow" to test it any time
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Take snapshot
+        env:
+          TFNSW_API_KEY: ${{ secrets.TFNSW_API_KEY }}
+        run: python tracker.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+
+      - name: Commit new data
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "Car park snapshot $(TZ=Australia/Sydney date '+%a %d %b %H:%M')"
+            git pull --rebase
+            git push
+          else
+            echo "No new data."
+          fi
