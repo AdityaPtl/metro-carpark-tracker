@@ -253,7 +253,7 @@ footer input { position: absolute; width: 1px; height: 1px; opacity: 0; }
   const STATIONS = [["Tallawong", [26, 27, 28]], ["Kellyville", [29, 30]], ["Bella Vista", [31]]];
   const DAY = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
   const SLOTS = 288, STEP = 5;           // 5-minute slots
-  const FFILL = 6;                         // carry a reading forward up to 30 minutes
+  const FFILL = 36;                        // carry a reading forward up to 3 hours (history only logs changes)
 
   // ---------- State ----------
   const saved = (() => { try { return JSON.parse(localStorage.getItem("mnp") || "{}"); } catch { return {}; } })();

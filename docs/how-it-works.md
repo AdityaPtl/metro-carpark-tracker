@@ -33,7 +33,7 @@ GitHub Actions can run a workflow on a schedule and push commits back to the rep
 
 ## 3. Turning readings into a grid
 
-The dashboard loads both CSVs and builds, for each car park and date, an array of 288 five-minute slots holding the occupied count. A reading is carried forward into following empty slots for up to 30 minutes (so 10-minute off-peak readings fill the gap between them), but no further, so a long outage shows as missing data instead of a flat line.
+The dashboard loads both CSVs and builds, for each car park and date, an array of 288 five-minute slots holding the occupied count. A reading is carried forward into following empty slots for up to 3 hours. The history endpoint only records a reading when the count changes, so quiet periods (especially overnight) have long gaps where the occupancy simply didn't move; capping the carry-forward at 3 hours still lets a real outage show as missing data instead of a flat line.
 
 **Station view** adds up a station's car parks slot by slot: Tallawong = P1 + P2 + P3. A slot only counts if every car park at that station has a value, so a missing car park can't make a station look emptier than it was.
 
