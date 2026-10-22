@@ -16,7 +16,14 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 SYDNEY = ZoneInfo("Australia/Sydney")
-STATIONS = ["Tallawong", "Kellyville", "Bella Vista", "Norwest"]
+# Live Park&Ride facility IDs from the TfNSW Car Park API docs (v2.4).
+# Norwest has no Park&Ride car park in the API. IDs 1-3 are retired
+# "historical only" car parks and are deliberately left out.
+FACILITIES = {
+    "26": "Tallawong", "27": "Tallawong", "28": "Tallawong",
+    "29": "Kellyville", "30": "Kellyville",
+    "31": "Bella Vista",
+}
 START_HOUR, END_HOUR = 5, 14             # 5:00am to 2:00pm Sydney time
 TRACK_DAYS = {0, 1, 2, 3, 4, 5}          # Mon=0 ... Sat=5
 STOP_AFTER = datetime(2026, 10, 31, 14, 0, tzinfo=SYDNEY)  # end of tracking week
@@ -42,15 +49,21 @@ def to_int(v):
         return None
 
 
-def read_facility(fid):
-    d = get(f"{BASE}?facility={fid}")
+def parse_record(d):
+    """Return (facility_name, total_spaces, occupied, message_date) from one feed record."""
     total = to_int(d.get("spots"))
     used = to_int((d.get("occupancy") or {}).get("total"))
-    if used is None:  # some car parks only report per zone
+    if used is None:  # fall back to summing zones
         vals = [to_int((z.get("occupancy") or {}).get("total")) for z in d.get("zones") or []]
         vals = [v for v in vals if v is not None]
         used = sum(vals) if vals else None
-    return total, used
+    return d.get("facility_name", ""), total, used, d.get("MessageDate", "")
+
+
+def percent(total, used):
+    if not total or used is None:
+        return ""
+    return round(100 * min(used, total) / total, 1)
 
 
 def main():
@@ -68,24 +81,20 @@ def main():
     if not API_KEY:
         sys.exit("TFNSW_API_KEY secret is missing.")
 
-    listing = get(BASE)  # {"<id>": "<facility name>", ...}
     rows = []
-    for fid, name in listing.items():
-        station = next((s for s in STATIONS if s.lower() in str(name).lower()), None)
-        if not station:
-            continue
+    for fid, station in FACILITIES.items():
         try:
-            total, used = read_facility(fid)
+            name, total, used, msg_date = parse_record(get(f"{BASE}?facility={fid}"))
         except Exception as e:
-            print(f"{name}: error {e}")
+            print(f"Facility {fid}: error {e}")
             continue
-        pct = round(100 * used / total, 1) if total and used is not None else ""
+        pct = percent(total, used)
         rows.append([now.strftime("%Y-%m-%d %H:%M"), now.strftime("%a"),
                      station, name, total, used, pct])
-        print(f"{name}: {used}/{total} ({pct}%)")
+        print(f"{name}: {used}/{total} ({pct}%)  [feed time {msg_date}]")
 
     if not rows:
-        sys.exit("No matching car parks returned — check the API key and car park names.")
+        sys.exit("No car park data returned — check the TFNSW_API_KEY secret.")
 
     os.makedirs(os.path.dirname(LOG), exist_ok=True)
     new = not os.path.exists(LOG)

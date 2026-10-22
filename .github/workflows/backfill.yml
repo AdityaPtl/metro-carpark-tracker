@@ -1,0 +1,41 @@
+name: Backfill past occupancy
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many past days to pull"
+        default: "28"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tracker
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull history
+        env:
+          TFNSW_API_KEY: ${{ secrets.TFNSW_API_KEY }}
+        run: python backfill.py "${{ inputs.days }}"
+
+      - name: Commit history
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "Backfill ${{ inputs.days }} days of car park history"
+            git pull --rebase
+            git push
+          fi
